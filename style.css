@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133, 127, 118);
+}
+
+#main #one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(91, 91, 173);
+}
+
+#one #two {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(123, 182, 189);
+}
+
+#one #three {
+    width: 100px;
+     height: 100px;
+    background-color: rgb(129, 69, 69);
+}
+
+#one #four {
+     width: 100px;
+     height: 100px;
+    background-color: rgb(190, 190, 135);
+}
